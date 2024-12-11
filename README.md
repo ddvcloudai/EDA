@@ -1,8 +1,5 @@
-# EDA Project
-This project belongs to performing Exploratory Data Analysis of the cars dataset 
-Data source : Kaggle
-Performance: 100%
-Car Dataset
+# EDA Project of cars dataset, data source : Kaggle, Performance: 100%
+
 -------------------------------------------------------------------------------
 It is one of the primary steps in the journey towards data science, and specifically associated with preparing the data set for the further analysis and machine learning modelling. It has been an issue of performing EDA via spreadsheets due to limitations towards process oversized data and to solve such problems there are certain open source tools and softwares available market wide to bridge this gap. Here, python is the commonly expected solving machine for EDA.
 
@@ -208,16 +205,6 @@ Output:
 
 
 
-
-
-
-
-
-
-
-
-
-
 Another style of plot is scattered plot for which the code and output is shown below:
 
 fig, ax = plt.subplots(figsize=(10,6))
@@ -229,16 +216,7 @@ plt.show()
 Output:
 
 
-
-
-
-
-
-
-
-
-
-
+  <Please try generating graph >
 
 
 The complete code for the example above is given below:
