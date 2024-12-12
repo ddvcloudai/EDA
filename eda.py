@@ -15,16 +15,16 @@ response = requests.get("https://path_to_your_resource", timeout=60)
 
 print("Path to dataset files:", path)
 df=pd.read_csv(f"/Users/divyadeepverma/.cache/kagglehub/datasets/CooperUnion/cardataset/versions/1/data.csv")
-#print(df.head(5))
-#print (df.dtypes)
+print(df.head(5))
+print (df.dtypes)
 
 # dropping the elements which are not required:
 df=df.drop(['Engine Fuel Type', 'Market Category', 'Vehicle Style', 'Popularity', 'Number of Doors', 'Vehicle Size'], axis=1)
-#print(df.head(5))
+print(df.head(5))
 
 #renaming of columns
 df=df.rename(columns={"Engine HP": "HP", "Engine Cylinders": "Cylinders", "Transmission Type": "Transmission", "Driven_Wheels": "Drive Mode","highway MPG": "MPG-H", "city mpg": "MPG-C", "MSRP": "Price" })
-#print(df.head(5))
+print(df.head(5))
 
 #deleting duplicate data
 print(df.shape)
